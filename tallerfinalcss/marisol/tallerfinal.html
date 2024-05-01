@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="card" style="width: 18rem;">
+        <img src="img/bebe.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Nombre</li>
+          <li class="list-group-item">Edad</li>
+          <li class="list-group-item">Telefono</li>
+          <li class="list-group-item">Direccion</li>
+          <li class="list-group-item">Codigo</li>
+          <li class="list-group-item">CarDid</li>
+          <li class="list-group-item">TypeID</li>
+          <li class="list-group-item">Gender</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    <section class="card">
+        <h2>Formulario de Registro</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad"><br><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="codigo">Código:</label><br>
+            <input type="text" id="codigo" name="codigo"><br><br>
+
+            <label for="cedula">Cédula:</label><br>
+            <input type="text" id="cedula" name="cedula"><br><br>
+
+            <label for="genero">Género:</label><br>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </section>
+    
+
+</body>
+
+</html>
